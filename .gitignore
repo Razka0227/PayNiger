@@ -1,0 +1,34 @@
+# Dépendances
+node_modules/
+.pnpm-store/
+*.tsbuildinfo
+
+# Builds
+dist/
+build/
+coverage/
+.expo/
+.nyc_output/
+*.orig
+
+# Environnement & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Base de données locale (si jamais lancé sans Docker)
+*.sqlite
+*.sqlite3
